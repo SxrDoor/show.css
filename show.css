@@ -1,0 +1,77 @@
+/*
+Copyright by 曹艺登&孙笑然
+
+top
+    title
+    dh
+left
+    card
+right
+    card
+*/
+body{
+    background-color: #f1f1f1;
+}
+.top{
+    margin:10px;
+}
+.title{
+    background-color:rgb(230,230,230);
+    color:black;
+    /*margin:20px;*/
+    padding:5px;
+    text-align:center;
+}
+/*/////////////////////////////////////////////////////////////////*/
+.dh {
+    margin-top: 10px;
+    overflow: hidden;
+    color:#f2f2f2;
+    background-color: rgb(150,150,150);
+}
+.dh a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dh a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/*/////////////////////////////////////////////////////////////////*/
+.left{
+    width: 25%;
+    float: left;
+}
+.right{
+    width: 75%;
+    float: right;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+}
+.card a {
+    color: rgb(130,130,130);
+    text-decoration: none;
+}
+.card a:hover {
+    color: black;
+}
+.floor{
+	position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  background-color: darkgray;
+}
+
+
+
+/*/////////////////////////////////////////////////////////////////*/
